@@ -1,13 +1,25 @@
-# Kompilierte Dateien
+# --- Kompilierte Dateien ---
 *.exe
-*.o
 *.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
 
-# Debug-Dateien
+# --- Debug/Logs ---
 *.log
 
-# VS Code Einstellungen (optional)
+# --- Build-Ordner ---
+build/
+bin/
+Debug/
+Release/
+
+# --- VS Code ---
 .vscode/
 
-# Build-Ordner (falls du einen hast)
-build/
+# --- Sonstige temporäre Dateien ---
+*.tmp
+*.bak
+*.swp
