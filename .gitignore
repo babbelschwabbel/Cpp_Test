@@ -1,0 +1,13 @@
+# Kompilierte Dateien
+*.exe
+*.o
+*.out
+
+# Debug-Dateien
+*.log
+
+# VS Code Einstellungen (optional)
+.vscode/
+
+# Build-Ordner (falls du einen hast)
+build/
